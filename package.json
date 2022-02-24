@@ -1,0 +1,32 @@
+{
+  "name": "skubeepboop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "sku start",
+    "test": "sku test",
+    "build": "sku build",
+    "serve": "sku serve",
+    "lint": "sku lint",
+    "format": "sku format"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "sku pre-commit"
+    }
+  },
+  "dependencies": {
+    "braid-design-system": "31.5.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sku": "11.2.7"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "husky": "^7.0.4"
+  }
+}
